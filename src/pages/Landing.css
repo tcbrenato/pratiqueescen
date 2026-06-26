@@ -1,0 +1,143 @@
+.page {
+  min-height: 100vh;
+  background: #0F1B2D;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #1F2D3D;
+}
+
+.hero {
+  background: #0F1B2D;
+  color: #ffffff;
+  padding: 64px 24px 48px;
+  text-align: center;
+}
+
+.eyebrow {
+  color: #2DD4BF;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 0 0 16px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.hero-sub {
+  max-width: 560px;
+  margin: 0 auto;
+  color: #C9D8E8;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.form-container {
+  background: #F5F8F9;
+  padding: 40px 16px 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 560px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+fieldset {
+  border: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 15px;
+  color: #0F8B8D;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field-row {
+  display: flex;
+  gap: 16px;
+}
+
+.field-row .field {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1F2D3D;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #D1D9E0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #0F8B8D;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #0F8B8D;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: #DC2626;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.confirmation {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 24px;
+  color: #ffffff;
+}
+
+.confirmation h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.confirmation-sub {
+  color: #9FB3C8;
+  margin-top: 8px;
+}
